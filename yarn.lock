@@ -3296,7 +3296,7 @@ shelljs@^0.9.2:
 
 shx@^0.4.0:
   version "0.4.0"
-  resolved "https://registry.npmjs.org/shx/-/shx-0.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/shx/-/shx-0.4.0.tgz#c6ea6ace7e778da0ab32d2eab9def59d788e9336"
   integrity sha512-Z0KixSIlGPpijKgcH6oCMCbltPImvaKy0sGH8AkLRXw1KyzpKtaCTizP2xen+hNDqVF4xxgvA0KXSb9o4Q6hnA==
   dependencies:
     minimist "^1.2.8"
