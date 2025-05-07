@@ -6,12 +6,14 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "yarn build && gh-pages -d out"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
+    "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "postcss": "^8",
@@ -19,5 +21,6 @@
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "@eslint/eslintrc": "^3"
-  }
+  },
+  "homepage": "https://shong2430.github.io/my-nextjs-app/"
 }
