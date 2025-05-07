@@ -3,6 +3,7 @@ const isProd = process.env.NODE_ENV === 'production';
 module.exports = {
   output: 'export',
   assetPrefix: isProd ? '/my-nextjs-app/' : '',
+  basePath: isProd ? '/my-nextjs-app' : '',
   trailingSlash: true,
   images: {
     unoptimized: true,

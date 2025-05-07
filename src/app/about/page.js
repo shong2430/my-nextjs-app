@@ -23,6 +23,7 @@ export default function AboutPage() {
       <p className="mt-4 text-lg test">
         This is the about page built with Next.js!
       </p>
+      <div style={{color: query?'red':'green'}}>dfff</div>
       <Button text="test" onClick={test}>
         dsadsdd
       </Button>
