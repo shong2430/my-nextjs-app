@@ -10,7 +10,7 @@ export default function AboutPage() {
 
     return (
         <div className="p-10 text-center">
-            <h1 className="text-3xl font-bold">About Shong</h1>
+            <h1 className="text-3xl font-bold title-bg">About Shong</h1>
             <p className="mt-4 text-lg">This is the about page built with Next.js!</p>
             <Button text="test" onClick={test} />
         </div>

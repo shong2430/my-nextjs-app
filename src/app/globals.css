@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.title-bg{
+  font-size: 36px;
+  color:#f23b77;
+  font-weight: bold;
+}
